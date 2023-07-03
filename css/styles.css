@@ -9,3 +9,11 @@ font-weight: 800;
 line-height: 1,16;
 letter-spacing: -0.03em;
 }
+
+.header-logo-accent{
+color: var(--navyblue, #2E2F42);
+font-size: 18px;
+font-weight: 800;
+line-height: 1,16;
+letter-spacing: -0.03;
+}
