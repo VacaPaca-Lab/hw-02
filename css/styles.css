@@ -10,19 +10,7 @@
     list-style-type: none;
 }
 
-.header-logo{
-color:  #2E2F42;
-font-size: 18px;
-font-weight: 800;
-line-height: 1,16;
-letter-spacing: 0.54px;
-}
-
-.header-link{
-color:  #2E2F42;
-font-size: 16px;
-font-weight: 500;
-line-height: 1,5;
-letter-spacing: 0.03em;
+.site-nav{
+    
 }
 
