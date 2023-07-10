@@ -2,6 +2,19 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 .link{
     text-decoration: none;
 }
@@ -20,7 +33,6 @@
    color:#2E2F42;
    font-family: Raleway;
    font-size: 18px;
-   font-style: normal;
    font-weight: 800;
    line-height: 21px;
    letter-spacing: 0.03em;
@@ -83,16 +95,17 @@
 }
 
 .advantages-subtitle {
-   color: var(--navyblue, #2E2F42);
+   color: #2E2F42;
    font-family: Roboto;
    font-size: 20px;
-   font-style: normal;
    font-weight: 500;
-   line-height: 24px;
-   letter-spacing: 0.4px;
 }
 
 .advantages-item-text {
+    color:#434455;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0.02;
 }
 
 
