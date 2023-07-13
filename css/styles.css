@@ -34,7 +34,7 @@
    font-family: Raleway;
    font-size: 18px;
    font-weight: 800;
-   line-height: 21px;
+   line-height: 1.16em;
    letter-spacing: 0.03em;
    text-transform: uppercase;
    text-decoration: none;
@@ -50,7 +50,7 @@
    font-size: 16px;
    font-style: normal;
    font-weight: 500;
-   line-height: 1.5;
+   line-height: 1.5em;
    letter-spacing: 0.02em;
    text-decoration: none;
    list-style-type: none;
@@ -67,7 +67,7 @@
    font-size: 16px;
    font-style: normal;
    font-weight: 400;
-   line-height: 24px;
+   line-height: 1.5em;
    letter-spacing: 0.02em;
 }
 
@@ -84,7 +84,7 @@
    font-family: Roboto;
    font-size: 56px;
    font-weight: 700;
-   line-height: 1.07;
+   line-height: 1.7em;
    letter-spacing: 0.02em;
 }
 
@@ -93,7 +93,7 @@
    font-family: Roboto;
    font-size: 16px;
    font-weight: 500;
-   line-height: 24px;
+   line-height: 1.5em;
    letter-spacing: 0.64px;
    background-color: #4D5AE5;
    cursor: pointer;
@@ -122,7 +122,7 @@
     color:#434455;
     font-family: Roboto;
     font-size: 16px;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 /*IMG*/
@@ -136,7 +136,7 @@
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.11;
+    line-height: 1.11em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -156,8 +156,8 @@
    font-size: 36px;
    font-style: normal;
    font-weight: 700;
-   line-height: 40px;
-   letter-spacing: 0.72px;
+   line-height: 1.1em;
+   letter-spacing: 0.02em;
    text-transform: capitalize;
 }
 
@@ -174,7 +174,7 @@
    font-size: 20px;
    font-style: normal;
    font-weight: 500;
-   line-height: 24px;
+   line-height: 1.2em;
    letter-spacing: 0.02em;
 }
 
@@ -185,8 +185,8 @@
    font-size: 16px;
    font-style: normal;
    font-weight: 400;
-   line-height: 1.05em;
-   letter-spacing: 0.32px;
+   line-height: 1.5em;
+   letter-spacing: 0.02em;
 }
 
 /*FOOTER*/
@@ -201,8 +201,8 @@
    font-size: 18px;
    font-style: normal;
    font-weight: 800;
-   line-height: 21px;
-   letter-spacing: 0.54px;
+   line-height: 1.16em;
+   letter-spacing: 0.03em;
    text-transform: uppercase;
 }
 
@@ -216,6 +216,6 @@
    font-size: 16px;
    font-style: normal;
    font-weight: 400;
-   line-height: 24px;
-   letter-spacing: 0.32px;
+   line-height: 1.5em;
+   letter-spacing: 0.02em;
 }
