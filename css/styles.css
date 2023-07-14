@@ -39,7 +39,7 @@ body{
 
 .header-logo{
    color:#2E2F42;
-   font-family: Raleway;
+   font-family: "Raleway";
    font-size: 18px;
    font-weight: 800;
    line-height: 1.16em;
@@ -54,7 +54,7 @@ body{
 
 .header-link{
    color:var(--navyblue-text-color);
-   font-family: Roboto;
+   font-family: "Roboto";
    font-size: 16px;
    font-style: normal;
    font-weight: 500;
@@ -71,7 +71,7 @@ body{
 
 .header-cont-inform{
    color: #434455;
-   font-family: Roboto;
+   font-family: "Roboto";
    font-size: 16px;
    font-style: normal;
    font-weight: 400;
@@ -238,7 +238,7 @@ body{
    background: #FFF;
 }
 .portfolio-btn {
-   color: var(--iris, #4D5AE5);
+   color: var(--btn-color);
    text-align: center;
    font-family: Roboto;
    font-size: 16px;
@@ -260,8 +260,8 @@ body{
 .portfolio-img {
 }
 .portfolio-header {
-   color: var(--navyblue, #2E2F42);
-   font-family: Roboto;
+   color: var(--navyblue-text-color);
+   font-family: "Roboto";
    font-size: 20px;
    font-style: normal;
    font-weight: 500;
@@ -270,8 +270,8 @@ body{
    text-decoration: none;
 }
 .portfolio-text {
-   color: var(--slate, #434455);
-   font-family: Roboto;
+   color:var(--slate-text-color);
+   font-family: "Roboto";
    font-size: 16px;
    font-style: normal;
    font-weight: 400;
