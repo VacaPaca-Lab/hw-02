@@ -2,11 +2,12 @@
    --navyblue-text-color:#2E2F42;
    --slate-text-color: #434455;
    --btn-color:#404BBF;
+   --white-ground-color: #FFFFFF;
 }
 body{
     font-family: "Roboto", sans-serif;
     color:#434455;
-    background-color: #FFFFFF;
+    background-color:var(--white-ground-color);
     font-size: 16px;
 }
 
@@ -42,14 +43,14 @@ body{
    font-family: "Raleway";
    font-size: 18px;
    font-weight: 800;
-   line-height: 1.16em;
+   line-height: 1.11em;
    letter-spacing: 0.03em;
    text-transform: uppercase;
    text-decoration: none;
 }
 
 .header-logo span{
-   color: #4D5AE5;
+   color: var(--btn-color);
 }
 
 .header-link{
@@ -66,7 +67,7 @@ body{
 
 .header-link:hover,
 .header-link:focus{
-   color: #4D5AE5;
+   color: var(--btn-color);
 }
 
 .header-cont-inform{
@@ -246,6 +247,11 @@ body{
    font-weight: 500;
    line-height: 1.5em;
    letter-spacing: 0.04em;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+   
 }
 
 .img-portfolio {
