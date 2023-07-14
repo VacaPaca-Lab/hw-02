@@ -1,11 +1,10 @@
+:root{
+   
+}
 .body{
     font-family: "Roboto", sans-serif;
     color:#434455;
     background-color: #FFFFFF
-}
-
-:root{
-   --primsry-color::#2E2F42;
 }
 
 .visually-hidden {
