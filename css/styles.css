@@ -1,10 +1,13 @@
 :root{
-   
+   --navyblue-text-color:#2E2F42;
+   --slate-text-color: #434455;
+   --btn-color:#404BBF;
 }
-.body{
+body{
     font-family: "Roboto", sans-serif;
     color:#434455;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    font-size: 16px;
 }
 
 .visually-hidden {
@@ -31,7 +34,7 @@
 /*HEADER*/
 
 .hero{
-   background:#2E2F42; 
+   background:var(--navyblue-text-color); 
 }
 
 .header-logo{
@@ -50,7 +53,7 @@
 }
 
 .header-link{
-   color: #2E2F42;
+   color:var(--navyblue-text-color);
    font-family: Roboto;
    font-size: 16px;
    font-style: normal;
@@ -232,6 +235,7 @@
 /*PORTFOLIO*/
 
 .portfolio {
+   background: #FFF;
 }
 .portfolio-btn {
    color: var(--iris, #4D5AE5);
@@ -256,7 +260,14 @@
 .portfolio-img {
 }
 .portfolio-header {
-   
+   color: var(--navyblue, #2E2F42);
+   font-family: Roboto;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 24px; /* 120% */
+   letter-spacing: 0.4px;
+   text-decoration: none;
 }
 .portfolio-text {
    color: var(--slate, #434455);
@@ -266,5 +277,6 @@
    font-weight: 400;
    line-height: 1.5em;
    letter-spacing: 0.02em;
+   text-decoration: none;
 }
 
