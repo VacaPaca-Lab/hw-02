@@ -34,23 +34,19 @@ body{
 
 /*HEADER*/
 
-.hero{
-   background:var(--navyblue-text-color); 
-}
-
 .header-logo{
-   color:#2E2F42;
-   font-family: "Raleway";
+   color:var(--btn-color);
+   font-family: "Raleway",sans-serif;
    font-size: 18px;
    font-weight: 800;
-   line-height: 1.11em;
+   line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase;
    text-decoration: none;
 }
 
 .header-logo span{
-   color: var(--btn-color);
+   color: var(--navyblue-text-color);
 }
 
 .header-link{
@@ -86,6 +82,10 @@ body{
 }
 
 /*HERO*/
+
+.hero{
+   background:var(--navyblue-text-color); 
+}
 
 .hero-title{
    color: #FFF;
