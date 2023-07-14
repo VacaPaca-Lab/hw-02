@@ -3,7 +3,7 @@
 }
 
 :root{
-  
+   
 }
 
 .visually-hidden {
@@ -152,6 +152,10 @@
 }
 
 /*TEAM IMG*/
+
+.team{
+   background: #F4F4FD;
+}
 
 .title-ourteam {
    color: #2E2F42;
