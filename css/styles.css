@@ -127,6 +127,8 @@ body{
    font-family: Roboto;
    font-size: 20px;
    font-weight: 500;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
 }
 
 .advantages-item-text {
@@ -134,6 +136,7 @@ body{
     font-family: Roboto;
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 /*IMG*/
