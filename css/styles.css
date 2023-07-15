@@ -147,6 +147,7 @@ body{
 /*IMG*/
 
 .title-img-doing {
+   background-color: #FFFFFF;
 }
 
 .title-doing {
@@ -182,7 +183,6 @@ body{
    line-height: 1.11;
    letter-spacing: 0.02em;
    text-transform: capitalize;
-   background-color: var(--white-ground-color);
 }
 
 .team-list {
