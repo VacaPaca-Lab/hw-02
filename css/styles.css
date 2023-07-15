@@ -95,19 +95,24 @@ body{
    font-family: Roboto;
    font-size: 56px;
    font-weight: 700;
-   line-height: 1.7em;
+   line-height: 1.07;
    letter-spacing: 0.02em;
 }
 
 .hero-btn{
    color:  #FFF;
-   font-family: Roboto;
+   font-family:  "Roboto", sans-serif;
    font-size: 16px;
    font-weight: 500;
    line-height: 1.5em;
    letter-spacing: 0.64px;
    background-color: #4D5AE5;
    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+   background-color: var(--btn-color);
 }
 
 /*ADVANTAGES*/
