@@ -3,6 +3,8 @@
    --slate-text-color: #434455;
    --btn-color:#404BBF;
    --white-ground-color: #FFFFFF;
+   --white-cloud-color:#F4F4FD;
+   --iris-color:#4D5AE5;
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -209,7 +211,7 @@ body{
 }
 
 .footer-title {
-   color:#F4F4FD;
+   color:var(--btn-color);
    font-family: Raleway;
    font-size: 18px;
    font-style: normal;
@@ -220,11 +222,11 @@ body{
 }
 
 .footer-title span{
-  color:#4D5AE5;
+  color:var(--white-ground-color);
 }
 
 .footer-text {
-   color: #F4F4FD;
+   color: var(--white-cloud-color;
    font-family: Roboto;
    font-size: 16px;
    font-style: normal;
@@ -238,7 +240,7 @@ body{
 .portfolio {
    background: #FFF;
 }
-.portfolio-btn {
+.portfolio-btn{
    color: var(--btn-color);
    text-align: center;
    font-family: Roboto;
@@ -247,6 +249,12 @@ body{
    font-weight: 500;
    line-height: 1.5em;
    letter-spacing: 0.04em;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+   color: var(--white-ground-color);
+   background-color: var(--btn-color);
 }
 
 .img-portfolio {
