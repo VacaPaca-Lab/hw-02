@@ -36,8 +36,8 @@ body{
 
 /*HEADER*/
 
-.header-logo{
-   color:var(--btn-color);
+.header-logo link{
+   color:var(--iris-color);
    font-family: "Raleway",sans-serif;
    font-size: 18px;
    font-weight: 800;
@@ -240,14 +240,14 @@ body{
 .portfolio {
    background: #FFF;
 }
-.portfolio-btn{
+.portfolio-btn-list{
    color: var(--btn-color);
    text-align: center;
-   font-family: Roboto;
+   font-family: "Roboto";
    font-size: 16px;
    font-style: normal;
    font-weight: 500;
-   line-height: 1.5em;
+   line-height: 1.5;
    letter-spacing: 0.04em;
 }
 
