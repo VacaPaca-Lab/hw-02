@@ -169,8 +169,7 @@ body{
 /*TEAM IMG*/
 
 .team{
-   background: #F4F4FD;
-   background-color: #FFFFFF
+   background-color: var(--white-cloud-color);
 }
 
 .title-ourteam {
@@ -183,6 +182,7 @@ body{
    line-height: 1.11;
    letter-spacing: 0.02em;
    text-transform: capitalize;
+   background-color: var(--white-ground-color);
 }
 
 .team-list {
