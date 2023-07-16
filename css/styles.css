@@ -34,7 +34,7 @@ body{
    text-decoration: none;
 }
 
-.header-title span{
+.header-title{
    color: var(--navyblue-text-color);
 }
 
@@ -222,7 +222,7 @@ body{
    text-transform: uppercase;
 }
 
-.footer-title span{
+.footer-title{
   color: var(--white-cloud-color);
 }
 
