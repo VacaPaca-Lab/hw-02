@@ -8,7 +8,7 @@
 }
 body{
     font-family: "Roboto", sans-serif;
-    color:#434455;
+    color:var(--slate-text-color);
     background-color:var(--white-ground-color);
     font-size: 16px;
 }
@@ -23,7 +23,7 @@ body{
 
 /*HEADER*/
 
-.header-logo{
+.header-title{
    color:var(--iris-color);
    font-family: "Raleway",sans-serif;
    font-size: 18px;
@@ -36,10 +36,6 @@ body{
 
 .header-logo span{
    color: var(--navyblue-text-color);
-}
-
-.contact{
-   font-style: normal;
 }
 
 .header-link{
@@ -73,6 +69,8 @@ body{
 .header-cont-inform:focus{
    color: var(--btn-color);
 }
+
+
 
 /*HERO*/
 
@@ -221,7 +219,7 @@ body{
    text-transform: uppercase;
 }
 
-.footer-title span{
+.footer-logo span{
   color: var(--white-cloud-color);
 }
 
