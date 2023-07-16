@@ -23,7 +23,7 @@ body{
 
 /*HEADER*/
 
-.header-title{
+.header-logo{
    color:var(--iris-color);
    font-family: "Raleway",sans-serif;
    font-size: 18px;
@@ -34,7 +34,7 @@ body{
    text-decoration: none;
 }
 
-.header-title span{
+.header-logo span{
    color: var(--navyblue-text-color);
 }
 
@@ -205,7 +205,7 @@ body{
 /*FOOTER*/
 
 .footer{
-   background: #2E2F42 ;
+   background:var(--navyblue-text-color) ;
 }
 
 .footer-title {
