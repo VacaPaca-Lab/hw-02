@@ -244,6 +244,7 @@ body{
    text-align: center;
    font-family:"Roboto", sans-serif ;
    font-size: 16px;
+   cursor: pointer;
    font-style: normal;
    font-weight: 500;
    line-height: 1.5;
@@ -254,9 +255,7 @@ body{
 .portfolio-btn:hover,
 .portfolio-btn:focus{
   color: var(--white-ground-color);
-  background-color: var(--btn-color);
-  cursor: pointer;
-  
+  background-color: var(--btn-color); 
 }
 
 .img-portfolio {
