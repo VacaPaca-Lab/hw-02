@@ -98,7 +98,6 @@ body{
    line-height: 1.5em;
    letter-spacing: 0.64px;
    background-color: #4D5AE5;
-   cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -255,6 +254,7 @@ body{
 .portfolio-btn:focus{
   color: var(--white-ground-color);
   background-color: var(--btn-color);
+  cursor: pointer;
   
 }
 
