@@ -159,6 +159,7 @@ body{
 /*TEAM IMG*/
 
 .team{
+   background-color: var(--white-cloud-color);
 }
 
 .title-ourteam {
