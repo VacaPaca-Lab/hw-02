@@ -156,7 +156,6 @@ body{
 /*TEAM IMG*/
 
 .team{
-   background-color: var(--white-cloud-color);
 }
 
 .title-ourteam {
@@ -175,6 +174,7 @@ body{
 }
 
 .team-list-img {
+   background-color: var(--white-ground-color);
 }
 
 .img-title-team {
